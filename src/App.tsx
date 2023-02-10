@@ -1,7 +1,7 @@
 import { CssBaseline } from '@mui/material';
 import { Route, Routes } from 'react-router-dom';
 import LoginPage from './pages/login.page';
-import SignupPage from './pages/Signup.page';
+
 
 function App() {
   return (
@@ -9,7 +9,7 @@ function App() {
       <CssBaseline />
       <Routes>
         <Route path='/' element={<LoginPage />} />
-        <Route path='/signup' element={<SignupPage />} />
+       
       </Routes>
     </>
   );
